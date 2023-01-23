@@ -307,6 +307,10 @@ ul {
   .active {
     max-height: 100%;
   }
+
+  .lg-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 /* for large screen xl(1280px) */
@@ -387,3 +391,11 @@ ul {
   padding-top: 16rem;
 }
 /* ---------- End ----------- */
+
+/* ---------- agency area style--------- */
+
+#site-main .agency-area {
+  padding: 5em 0;
+}
+
+/* ---------- end area style--------- */
