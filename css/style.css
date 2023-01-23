@@ -274,6 +274,9 @@ ul {
   .container {
     max-width: 640px;
   }
+  .sm-text-xl {
+    font-size: 3em;
+  }
 }
 
 /* for large screen md(768px) */
@@ -373,6 +376,14 @@ ul {
 
 #site-main .banner-area {
   width: 100%;
-  background: var(--bg-cover);
+  position: relative;
+  background: var(--bg-cover) no-repeat;
+  background-position-x: right;
+  z-index: -99;
+}
+
+#site-main .banner-area .banner-title {
+  height: 95vh;
+  padding-top: 16rem;
 }
 /* ---------- End ----------- */
