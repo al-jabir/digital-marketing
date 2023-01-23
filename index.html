@@ -6,14 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Marketing</title>
     <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- bootstrap icon cdn -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+      integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Header Section -->
 
-    <div class="container-fluid">
-      <h1>navigation</h1>
-    </div>
+    <header class="container-fluid">
+      <nav id="nav" class="flex font-poppins">
+        <div class="nav-brand">
+          <a href="#" class="text-dark text-lg font-bold">Digital</a>
+        </div>
+
+        <div class="toggle-btn">
+          <button class="btn">
+            <i class="bi bi-filter-right"></i>
+          </button>
+        </div>
+
+        <div class="collapse flex-grow">
+          <ul class="flex">
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#" class="link">About</a></li>
+            <li><a href="#" class="link">Services</a></li>
+            <li><a href="#" class="link">Work</a></li>
+            <li><a href="#" class="link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="flex-initial">
+          <ul class="flex">
+            <button
+              class="btn btn-primary bg-gradient text-white text-uppercase btn-shadow"
+            >
+              Start Project
+            </button>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!--End Header Section -->
+
+    <script src="./js/app.js"></script>
   </body>
 </html>

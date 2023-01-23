@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 /* --------- Variables ---------- */
 
@@ -265,3 +265,53 @@ ul {
 }
 
 /* ------ End ------ */
+
+/* ------- Navigation ------- */
+
+#nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: var(--text-light);
+  flex-direction: column;
+}
+
+#nav .collapse {
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all 0.9s ease;
+}
+#nav .collapse ul {
+  flex-direction: column;
+  text-align: center;
+  padding: 0 3rem;
+}
+
+#nav .collapse ul > li {
+  padding: 0 1.5rem;
+  line-height: 3rem;
+  font-size: 1.1em;
+}
+
+#nav .toggle-btn > button {
+  font-size: 2em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1rem;
+  color: var(--text-dark2);
+}
+
+#nav .flex-initial ul button {
+  display: none;
+}
+
+.active {
+  max-height: 50vh !important;
+}
+/* ------- END ------- */
+
+/* ---------- Responsive Devices ----------- */
+/* ---------- End ----------- */
