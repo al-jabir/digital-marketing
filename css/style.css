@@ -484,3 +484,11 @@ ul {
   text-align: center;
 }
 /* ---------- end area style--------- */
+
+/* -------- card area ---------- */
+
+#site-main .card-area .grid {
+  column-gap: 4em;
+  row-gap: 2em;
+}
+/* -------- end card area ---------- */
