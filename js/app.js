@@ -8,4 +8,13 @@ window.onload = function digital() {
   toggle.addEventListener('click', () => {
     collapse.classList.toggle('active');
   });
+
+  // mansonry js
+  let grid = document.querySelector('.images-flex');
+
+  let msnry = new Masonry(grid, {
+    itemSelector: '.flex-item',
+    gutter: 100,
+    fitWidth: true,
+  });
 };
