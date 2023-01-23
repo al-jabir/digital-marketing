@@ -492,3 +492,14 @@ ul {
   row-gap: 2em;
 }
 /* -------- end card area ---------- */
+
+/* --------Recent area---------- */
+
+#site-main .recent-work-area .images-flex .flex-item {
+  width: 360px;
+  margin-bottom: 50px;
+}
+#site-main .recent-work-area .images-flex .flex-item img {
+  border-radius: 10px;
+}
+/* --------Recent end area---------- */
