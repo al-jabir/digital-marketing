@@ -28,10 +28,10 @@
 
   /* images */
 
-  /* --bg-cover: url(./assets/bgimg1.png);
-  --bg-image1: url(./assets/img1.png);
-  --bg-image2: url(./assets/img2.png);
-  --bg-image3: url(./assets/img3.png); */
+  --bg-cover: url(../Images/bgimg1.png);
+  --bg-image1: url(../Images/img1.png);
+  --bg-image2: url(../Images/img2.png);
+  --bg-image3: url(../Images/img3.png);
 }
 /* --------- End ---------- */
 
@@ -373,7 +373,6 @@ ul {
 
 #site-main .banner-area {
   width: 100%;
-  position: relative;
-  background: url(img1.png);
+  background: var(--bg-cover);
 }
 /* ---------- End ----------- */
