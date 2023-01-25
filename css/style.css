@@ -503,3 +503,15 @@ ul {
   border-radius: 10px;
 }
 /* --------Recent end area---------- */
+
+/* --------- Articles area style -------- */
+
+#site-main .article-area .grid {
+  column-gap: 5em;
+}
+
+#site-main .article-area .card article {
+  border-radius: 10px;
+}
+
+/* --------- end Articles area style -------- */
